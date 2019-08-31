@@ -60,12 +60,16 @@ ZSH_THEME="agnoster"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  osx
+  zsh-syntax-highlighting
+  zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
+# zsh-autosuggestions
 
+# User configuration
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -99,6 +103,7 @@ alias bunkerzssh="expect /Users/zhaoyao/myssh/zssh.sh"
 alias tnew="tmux new -s"
 alias tls="tmux ls"
 alias ta="tmux a -t"
+alias vim='mvim -v'
 
 # added by Anaconda3 5.1.0 installer
 export PATH="/Users/zhaoyao/anaconda3/bin:$PATH"
@@ -107,3 +112,6 @@ export LSCOLORS="exfxcxdxbxexexabagacad"
 alias ls='ls -G'
 
 export CLICOLOR=1
+
+# set zsh-autosuggestions font color
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=245"

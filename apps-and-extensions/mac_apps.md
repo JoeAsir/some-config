@@ -1,12 +1,12 @@
 ## My Mac Apps
 ### Systems Apps
-* snap
 * Alfred
 * Bartender
 * CheatSheet
 * Karabiner
 * Itsycal
-* Hyperswitch
+* WeatherBug
+* Snappy
 
 ### Terminal
 * iTerm2
@@ -23,3 +23,6 @@
 ### Notes & Writing
 * Quiver
 * Grammarly
+* Todoist
+* AnkiApp
+* Recess
